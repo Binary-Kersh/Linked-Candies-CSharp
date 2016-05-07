@@ -21,6 +21,7 @@ namespace WindowsFormsApplication3
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
+            gamePlay.DeleteGamePlay();
             gamePlay gp = gamePlay.CreatGamePlay(2);
             gp.ShowDialog();
             this.Close();
@@ -29,6 +30,7 @@ namespace WindowsFormsApplication3
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
+            gamePlay.DeleteGamePlay();
             gamePlay gp = gamePlay.CreatGamePlay(1);
             gp.ShowDialog();
             this.Close();
@@ -37,6 +39,7 @@ namespace WindowsFormsApplication3
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
+            gamePlay.DeleteGamePlay();
             gamePlay gp = gamePlay.CreatGamePlay(3);
             gp.ShowDialog();
             this.Close();

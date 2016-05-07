@@ -66,6 +66,10 @@ namespace WindowsFormsApplication3
             return Game;
 
         }
+        public static void DeleteGamePlay()
+        { 
+            Game = null;
+        }
         private void gamePlay_Load(object sender, EventArgs e)
         {
             simpleSound = new SoundPlayer("sounds\\Theme.wav");

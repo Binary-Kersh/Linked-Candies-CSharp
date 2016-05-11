@@ -1,2 +1,3 @@
 # Linked-Candies-CSharp
-///
+You can find the final code at Linked-Candies-CSharp....
+
